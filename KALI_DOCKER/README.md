@@ -8,7 +8,8 @@ sudo docker run -it  kali_image /bin/bash
 ## VPN connection
 In order to allow vpn connections from container run with:
 ```sh
-sudo docker run --cap-add=NET_ADMIN --device /dev/net/tun  --sysctl net.ipv6.conf.all.disable_ipv6=0 -it kali_image /bin/bash```
+sudo docker run --cap-add=NET_ADMIN --device /dev/net/tun  --sysctl net.ipv6.conf.all.disable_ipv6=0 -it kali_image /bin/bash
+```
 
 ## Create Image
 When exiting the container you can save the container as your image with
