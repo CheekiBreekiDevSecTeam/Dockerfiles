@@ -11,7 +11,8 @@ When exiting the container you can save the container as your image with
 sudo docker commit container-id or image_tag Image_name_you_want_to_give
 ```
 
-Example: ```sh
+Example: 
+```sh
 sudo docker commit {a3f41572ce6f || kali_image} kali/kalimage
 ```
 
