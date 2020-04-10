@@ -15,10 +15,14 @@ sudo docker images
 
 ### List all containers
 ```sh
-docker ps -a
+sudo docker ps -a
 ```
 
 ### Copy files from host to container
 ```sh
-docker cp file container:/path/to/copy/file
+sudo docker cp file container:/path/to/copy/file
+```
+### Remove all stopped containers
+```sh
+sudo docker rm $(docker ps -a -q)
 ```
