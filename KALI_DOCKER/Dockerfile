@@ -67,7 +67,7 @@ RUN git clone --recursive https://github.com/byt3bl33d3r/CrackMapExec
 RUN git clone https://github.com/SecureAuthCorp/impacket.git
 
 # mimikatz
-git clone https://github.com/gentilkiwi/mimikatz.git
+RUN git clone https://github.com/gentilkiwi/mimikatz.git
 
 # ranger
 RUN wget https://raw.githubusercontent.com/funkandwagnalls/ranger/master/setup.sh && chmod a+x setup.sh && ./setup.sh && rm setup.sh
